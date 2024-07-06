@@ -21,4 +21,8 @@ filename = get_filename()
 
 # Записывает эти данные в CSV-файл
 saving_as_csv(filename,headers,currences)
-print("Все готово,можете ознакомиться с результатами")
+print("Все готово,можете ознакомиться с результатами, они сохранены в отдельный файл")
+# Выводим сообщение о курсах основных валют
+get_today_text()
+get_main_courses(currences)
+
